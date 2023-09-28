@@ -12,7 +12,7 @@
 nav {
   display: flex;
   justify-content: space-between;
-  margin: 3rem 7.5rem 3rem 7.5rem;
+  padding: 3rem 7.5rem 3rem 7.5rem;
 }
 
 .navList {
@@ -50,9 +50,7 @@ nav {
 
 .mainDescription {
   color: #565656;
-  font-size: 16px;
   font-style: normal;
-  font-weight: 400;
   line-height: 25.6px; 
   margin-bottom: 3rem;
 }
@@ -68,4 +66,17 @@ nav {
 
 .contactButton:hover {
     background-color: #1e2daf;
+}
+.img {
+    position: relative;
+}
+.mainMoon {
+    position: absolute;
+    top: 0;
+    left: -50px; /* Posição à esquerda da imagem */
+    width: 100px; /* Largura do círculo (meia lua) */
+    height: 100px; /* Altura do círculo (meia lua) */
+    background-color: #DAE9FF; /* Cor de fundo da meia lua */
+    border-radius: 50%; /* Transforma o elemento em uma meia lua */
+    z-index: -1; /* Coloca a meia lua atrás dos outros elementos */
 }
