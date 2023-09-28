@@ -32,7 +32,7 @@ nav {
 
 .mainSection {
   display: flex;
-  gap: 104px;
+  gap: 6.5rem;
   width: 100%;
   overflow: hidden;
 }
