@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 3rem 7.5rem 3rem 7.5rem;
+}
+
+.navList {
+  display: flex;
+  gap: 3.75rem;
+}
+
+.navItem a {
+  color: #000;
+  font-family: "poppins";
+  font-weight: bold;
+}
+
+.navItem a:hover {
+    color: #666666;
+}
+
+.mainSection {
+  display: flex;
+  gap: 104px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.mainText {
+  margin-top: 7rem;
+  margin-left: 7.5rem;
+}
+
+.mainTitle {
+  font-size: 40px;
+  white-space: nowrap;
+  margin-bottom: 2.5rem;
+}
+
+.mainDescription {
+  color: #565656;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; 
+  margin-bottom: 3rem;
+}
+
+.contactButton {
+    background-color: #2639ED;
+    color: #FFF;
+    font-weight: bold;
+    border-radius: 60px;
+    padding: 20px 40px;
+    transition: 0.3s;
+}
+
+.contactButton:hover {
+    background-color: #1e2daf;
+}
